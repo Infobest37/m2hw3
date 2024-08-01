@@ -4,7 +4,7 @@ while nul < len(my_list):
     if my_list[nul] < 0:
         break
     if my_list[nul] == 0:
-        my_list.remove(my_list[nul])
+        nul += 1
 
     print(my_list[nul])
 
